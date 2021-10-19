@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'songs/edit'
+
+  get 'songs/new'
+
+  get 'songs/show'
+
   get 'genres/edit'
 
   get 'genres/new'
